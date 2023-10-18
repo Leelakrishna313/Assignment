@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Customer Survey Form</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class="main">
+            <div id="caption">
+                <caption id="caption"><marquee dir="auto">Customer Survey Form</marquee></caption><br><br>
+            </div>
+            <div id="form">
+                <form method="post" action="/action_page.php" name="myForm" onsubmit="return validate();">
+                    <label for="Firstname" name="Firstname">First name*:</label>
+                    <input type="text" placeholder="Enter your first name" name="Firstname"><br><br>
+                    <label for="Lastname" name="Lastname">Last name*:</label>
+                    <input type="text" placeholder="Enter your last name" name="Lastname"><br><br>
+                    <label for="dob" name="dob">Date Of Birth*:</label>
+                    <input type="date" name="dob"><br><br>
+                    <label for="country" name="country">Choose country*:</label>
+                    <select name="country">
+                        <option>--Choose--</option>
+                        <option>america</option>
+                        <option>argentina</option>
+                        <option>australia</option>
+                    </select><br><br>
+                    <label for="gender">Gender*</label><br>
+                    <input type="radio" name="gender" tabindex="Male">Male<br>
+                    <input type="radio" name="gender" value="Female">Female<br>
+                    <input type="radio" name="gender" value="Prefer not to say">Prefer not to say
+                    <br><br>
+                    <label for="profession">What is your profession*:</label><br>
+                    <input type="text" placeholder="Enter your answer" name="profession"><br><br>
+                    <label for="email">Email id*:</label><br>
+                    <input type="email" name="email"><br><br>
+                    <label for="number">Mobile number*:</label><br>
+                    <input type="text" name="number">
+                    <br><br>
+                    <label for="que" name="que">Is this first time you are using our products and services</label><br>
+                        <input type="radio" name="yes">yes
+                        <input type="radio" name="no">No
+                        <br><br>
+                    <label for="que" name="que">Would you suggest to your friends and colleagues</label><br>
+                        <input type="radio" name="yes">yes
+                        <input type="radio" name="no">No<br>
+                    <p>Fields with (*) are mandatory</p>
+                    <input type="submit" onclick="validate()" value="Sumbit" id="submit">
+                    <input type="reset" onclick="clear()" value="Reset">
+            </div>
+
+            <div id="hr">
+                <hr>@2023 Customer Survey Form.All Rights Reserved || Designed by <b>Leela Krishna</b>
+            
+            </div>
+
+        </div>
+        
+        
+        <script src="forms.js"></script>
+    
+    </form>
+    </body>
+</html>

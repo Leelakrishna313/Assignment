@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(126, 126, 240);
+}
+#form{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:aquamarine;
+   text-align:start;
+   grid:50vh;
+   padding-left: 20%;
+   padding-top: 3%;
+   font-size: large;
+   margin-left: 20%;
+   margin-right: 20%;
+   padding-bottom: 2%;
+   
+}
+#caption{
+    font-size:200%;
+    padding-top: 2%;
+    text-align: center;
+   
+    position: relative;;
+    background-color: rgb(121, 227, 34);
+   
+    color: blue;
+    margin-left: 20%;
+   margin-right: 20%;
+}
+#hr{
+    margin-left: 20%;
+   margin-right: 20%;
+   background-color:aquamarine;
+   grid:50vh;
+   text-align: center;
+   padding-bottom: 3%;
+   border-top: solid  aquamarine;;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+#submit:hover{
+    background-color:green;
+    width: 30%;
+}
+#submit:active{
+    background-color: brown;
+}
+section{
+    display: block;
+}
